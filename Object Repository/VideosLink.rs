@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VideosLink</name>
+   <tag></tag>
+   <elementGuidId>3c60f8bf-ce70-4c7d-9755-e70ea378b37d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Videos')]</value>
+   </webElementProperties>
+</WebElementEntity>
