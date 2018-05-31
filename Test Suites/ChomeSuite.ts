@@ -4,7 +4,7 @@
    <name>ChomeSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-31T09:19:03</lastRun>
+   <lastRun>2018-05-31T10:01:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

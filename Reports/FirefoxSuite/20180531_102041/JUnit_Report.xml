@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FirefoxSuite" time="56" tests="2" failures="0" errors="0">
+   <testsuite name="FirefoxSuite" tests="2" failures="0" errors="0" time="56" timestamp="2018-05-31 10:20:44" hostname="Debar - 192.168.0.38" id="Test Suites/FirefoxSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041"/>
+         <property name="logFiles" value="C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041\\1527754879806.png, C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041\\1527754896365.png"/>
+         <property name="hostName" value="Debar - 192.168.0.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.0.38"/>
+         <property name="sessionId" value="42a76818-d4f4-469c-9bd9-6b6e988d5bd5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1" classname="Test Cases/TC1" status="PASSED">
+         <system-out><![CDATA[2018-05-31 10:20:44 - [TEST_CASE][PASSED] - Test Cases/TC1: Test Cases/TC1
+
+2018-05-31 10:20:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-31 10:20:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-31 10:20:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://timesofindia.indiatimes.com/' successfully
+
+2018-05-31 10:21:19 - [MESSAGE][PASSED] - Navigate to 'https://timesofindia.indiatimes.com/' successfully
+
+2018-05-31 10:21:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-05-31 10:21:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041\\1527754879806.png]]
+
+2018-05-31 10:21:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VideosLink' is clicked on
+
+2018-05-31 10:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/VideosLink' is clicked on
+
+2018-05-31 10:21:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-31 10:21:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[2018-05-31 10:21:24 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+2018-05-31 10:21:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-31 10:21:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-31 10:21:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-05-31 10:21:36 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-05-31 10:21:36 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-05-31 10:21:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Debar\\git\\KatalonStudioTesting\\Reports\\FirefoxSuite\\20180531_102041\\1527754896365.png]]
+
+2018-05-31 10:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Women' is clicked on
+
+2018-05-31 10:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Women' is clicked on
+
+2018-05-31 10:21:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-31 10:21:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-31 10:20:44 - [TEST_SUITE][PASSED] - FirefoxSuite: Test Cases/TC2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
