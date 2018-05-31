@@ -26,57 +26,5 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
 WebUI.click(findTestObject('Page_My Store/a_Women'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Women - My Store/a_Dresses'), 0)
-
-WebUI.click(findTestObject('Page_Women - My Store/a_Dresses'))
-
-WebUI.click(findTestObject('Page_Dresses - My Store/a_Casual Dresses'))
-
-WebUI.click(findTestObject('Page_Casual Dresses - My Store/span'))
-
-WebUI.click(findTestObject('Page_Casual Dresses - My Store/html_Casual Dresses - My Store'))
-
-WebUI.click(findTestObject('Page_Casual Dresses - My Store/span_Add to cart'))
-
-WebUI.click(findTestObject('Page_Casual Dresses - My Store/span_Proceed to checkout'))
-
-WebUI.click(findTestObject('Page_Order - My Store/html_Order - My Store  var CUS'))
-
-WebUI.click(findTestObject('Page_Order - My Store/span_Proceed to checkout'))
-
-WebUI.click(findTestObject('Page_Login - My Store/html_Login - My Store  var CUS'))
-
-WebUI.setText(findTestObject('Page_Login - My Store/input_email'), 'debarnab.banerjee@gmail.com')
-
-WebUI.setText(findTestObject('Page_Login - My Store/input_passwd'), 'California0!')
-
-WebUI.click(findTestObject('Page_Login - My Store/span_Sign in'))
-
-WebUI.click(findTestObject('Page_Order - My Store/html_Order - My Store  var CUS_1'))
-
-WebUI.click(findTestObject('Page_Order - My Store/span_Proceed to checkout'))
-
-WebUI.click(findTestObject('Page_Order - My Store/html_Order - My Store  var CUS_2'))
-
-WebUI.click(findTestObject('Page_Order - My Store/div_Choose a shipping option f'))
-
-WebUI.click(findTestObject('Page_Order - My Store/input_cgv'))
-
-WebUI.click(findTestObject('Page_Order - My Store/span_Proceed to checkout_1'))
-
-WebUI.click(findTestObject('Page_Order - My Store/html_Order - My Store  var CUS_3'))
-
-WebUI.click(findTestObject('Page_Order - My Store/a_Pay by bank wire (order proc'))
-
-WebUI.click(findTestObject('Page_My Store/html_My Store  var CUSTOMIZE_T'))
-
-WebUI.click(findTestObject('Page_My Store/span_I confirm my order'))
-
-WebUI.click(findTestObject('Page_Order confirmation - My Store/html_Order confirmation - My S'))
-
-WebUI.click(findTestObject('Page_Order confirmation - My Store/html_Order confirmation - My S'))
-
-WebUI.click(findTestObject('Page_Order confirmation - My Store/html_Order confirmation - My S'))
-
-WebUI.closeBrowser()
+WebUI.takeScreenshot()
 
