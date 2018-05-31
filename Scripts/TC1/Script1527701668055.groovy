@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://timesofindia.indiatimes.com/')
 
-WebUI.click(findTestObject('VideosLink'))
-
 WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('VideosLink'))
 
 WebUI.closeBrowser()
 

@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Page_My Store/a_Women'))
 
-WebUI.takeScreenshot()
+WebUI.closeBrowser()
 
